@@ -1,0 +1,130 @@
+.quote-container {
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    width: 100%;                
+    max-width: 400px;          
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    box-sizing: border-box;    
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.profile a {
+    color: #ffffff;
+}
+
+.profile a:hover {
+    color: #3b6b77;
+}
+
+.quote-container p {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    margin: 3%;
+}
+
+.quote-button button {
+    margin: 3%;
+    padding: 7px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1abc9c;
+    color: #ffffff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote-button button:hover {
+    background-color: #3b6b77;
+}
+
+/* modal */
+.modal-content {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.mcontainer {
+    width: 60%;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.profile-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.profile-container .profile-cover {
+    height: 100px;
+    background-color: #0F2027;
+}
+
+.profile-container .profile-wrapper {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #333;
+}
+.profile-info p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #555;
+}
+
+.icon-wrapper {
+    margin: 10px;
+}
+
+.icon-wrapper a {
+    margin: 2px;
+    color: #2C4751;
+    text-decoration: none;
+    position: relative;
+}
+
+.icon-wrapper a:hover {
+    color: #1abc9c;
+}
+
+.icon-wrapper a::after {
+    margin: 10px;
+    content: "|";
+    color: #555;
+}
+
+.icon-wrapper a:last-child::after {
+  content: "";
+}

@@ -46,3 +46,21 @@ npm start
 This will start the app and open it in your browser at:
 ```bash
 http://localhost:3000
+```
+
+
+## Tech Stack
+
+- **React.js** – JavaScript library for building user interfaces  
+- **API Ninjas (Quotes API)** – External API used to fetch random quotes  
+- **HTML & CSS** – Markup and styling  
+- **Bootstrap** – Used for modal and responsive layout
+
+---
+
+## Developer
+
+**ImJC.Dev**  
+- GitHub: [@T3rr8us-P4nk](https://github.com/T3rr8us-P4nk)  
+- Facebook: [T3rr8usP4nk](https://www.facebook.com/T3rr8usP4nk)  
+- YouTube: [@imjcdev](https://www.youtube.com/@imjcdev)
